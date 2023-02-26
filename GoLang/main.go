@@ -9,7 +9,7 @@ var array [10] int
 func main(){
 	var a= "Texto auto definido?"
 	fmt.Println("Tipo de dato ",a)
-	for i:=1;i>10;i++{
+	for i:=1;i<10;i++{
 		array[i]=i
 	}
 	var b=estruk {nom:"pepe",cant:15}
